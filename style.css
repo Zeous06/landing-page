@@ -1,0 +1,58 @@
+body {
+  background-image: url("darkblue-grunge-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
+  font-size: 60px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+h2 {
+  margin-top: 100px;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+.login-button {
+  position: absolute;
+  right: 350px;
+  height: 40px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+form input {
+  width: 48%;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+select {
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.CA {
+  width: 100%;
+  background-color: purple;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
